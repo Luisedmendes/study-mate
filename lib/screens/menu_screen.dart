@@ -65,7 +65,7 @@ class _MenuScreenState extends State<MenuScreen> {
                       ),
                       SizedBox(width: 10),
                       Text(
-                        'CONTROLE DE PRODUTIVIDADE',
+                        'POMODORO',
                         style: TextStyle(color: Colors.black),
                       ),
                     ],

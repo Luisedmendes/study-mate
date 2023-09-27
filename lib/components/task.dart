@@ -48,6 +48,7 @@ class _TaskComponentState extends State<TaskComponent> {
     setState(() {
       widget.nivel++;
 
+      // Caso esse if seja true ele termina a task
       if (widget.nivel >= widget.dificuldade * 10) {
         if (widget.nivel >= widget.dificuldade) {
           showDialog(

@@ -8,6 +8,8 @@ import 'package:studymate_project_fetin/screens/login_screen.dart';
 import 'package:studymate_project_fetin/store/pomodoro.store.dart';
 
 
+
+// Topo da arcore de widgets -- GERENCIAMENTO DE ESTADO
 void main() {
   runApp(MultiProvider(
     providers: [
@@ -36,6 +38,7 @@ class MyApp extends StatelessWidget {
             useMaterial3: true,
           ),
           home: Navigator(
+            // Navegação das telas
             onGenerateRoute: (settings) {
               Widget? page;
               if (settings.name == '/') {
